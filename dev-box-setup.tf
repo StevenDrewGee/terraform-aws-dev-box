@@ -11,6 +11,7 @@ provider "aws" {
   profile = "default"  
   region  = "us-east-1"
 }
+
 module "append" {
-  
+      source = "./modules/append/"
 }
